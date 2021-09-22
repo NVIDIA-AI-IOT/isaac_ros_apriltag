@@ -7,7 +7,7 @@
 # license agreement from NVIDIA CORPORATION is strictly prohibited.
 
 cmake_minimum_required(VERSION 3.5)
-project(isaac_ros_apriltag_interfaces LANGUAGES C CXX CUDA)
+project(isaac_ros_apriltag_interfaces LANGUAGES C CXX)
 
 # Default to C++17
 if(NOT CMAKE_CXX_STANDARD)
