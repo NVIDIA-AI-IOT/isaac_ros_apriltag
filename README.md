@@ -1,5 +1,12 @@
 # `isaac_ros_apriltag`
 
+---
+**WARNING**
+
+Isaac ROS Apriltag has moved to [NVIDIA-ISAAC-ROS](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag) (2021-10-20). Please visit [here](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag) to find new development and file issues.
+
+---
+
 ## Overview
 This ROS2 node uses the NVIDIA GPU-accelerated AprilTags library to detect AprilTags in images and publishes their poses, IDs, and additional metadata. This has been tested on ROS2 (Foxy) and should build and run on x86_64 and aarch64 (Jetson). It is modeled after and comparable to the ROS2 node for [CPU AprilTags detection](https://github.com/christianrauch/apriltag_ros.git).
 
